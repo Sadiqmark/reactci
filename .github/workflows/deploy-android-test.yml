@@ -34,9 +34,9 @@ jobs:
       - name: Upload to App Center
         uses: wzieba/AppCenter-Github-Action@v1
         with:
-          appName: ${{ env.APP_NAME }}
-          token: ${{ env.APP_CENTER_TOKEN }}
-          group: ${{ env.TESTING_GROUP }}
-          file: ${{ env.UPLOAD_FILE }}
+          appName: $
+          token: $
+          group: $
+          file: $
           notifyTesters: false
           debug: false
